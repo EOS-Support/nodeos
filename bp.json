@@ -1,0 +1,79 @@
+{
+  "producer_account_name": "eossupportbp",
+  "org": {
+    "candidate_name": "EOS Support",
+    "website": "https://eossupport.io/",
+    "code_of_conduct":"http://news.eossupport.io/terms",
+    "ownership_disclosure":"https://eossupport.io/policy",
+    "email":"contact@eossupport.io",
+    "github_user":"Eossupport",
+    "chain_resources": "",
+    "other_resources": [],
+    "branding":{
+      "logo_256":"https://eossupport.io/images/eossupport_logo_256.png",
+      "logo_1024":"https://eossupport.io/images/eossupport_logo_1024.png",
+      "logo_svg":"https://eossupport.io/images/eossupport_logo_svg.svg"
+    },
+    "location": {
+      "name": "United States",
+      "country": "US",
+      "latitude": 36.85111,
+      "longitude":  -76.28556
+    },
+    "social": {
+      "keybase": "",
+      "telegram": "",
+      "twitter": "https://twitter.com/eossupportio",
+      "github":"https://github.com/RoRo-TechnologyPLLC",
+      "youtube": "https://www.youtube.com/channel/UC4jiGUCMTFhdcNH2osCbOWA",
+      "facebook": "",
+      "hive": "",
+      "reddit": "",
+      "wechat":""
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "United States",
+        "country": "US",
+        "latitude": 36.85111,
+        "longitude": -76.28556
+      },
+      "full": false,
+      "node_type": "producer",
+      "p2p_endpoint": "",
+      "api_endpoint": "",
+      "ssl_endpoint": ""
+    },
+    {
+      "location": {
+        "name": "United States",
+        "country": "US",
+        "latitude": 36.85111,
+        "longitude": -76.28556
+      },
+      "full": false,
+      "node_type":"seed",
+      "p2p_endpoint": "p2p.eossupport.io:9876",
+      "api_endpoint": "",
+      "ssl_endpoint": ""
+    },
+    {
+      "location": {
+        "name": "United States",
+        "country": "US",
+        "latitude": 36.85111,
+        "longitude": -76.28556
+      },
+      "full": false,
+      "node_type":"query",
+      "p2p_endpoint": "",
+      "api_endpoint": "http://api.eossupport.io",
+      "ssl_endpoint": "https://api.eossupport.io",
+      "features": [
+        "chain_api"
+      ]
+    }
+  ]
+}

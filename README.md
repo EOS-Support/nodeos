@@ -1,1 +1,2 @@
 # nodeos
+./start.sh

@@ -1,2 +1,3 @@
 # nodeos
-./start.sh
+run nodeos  ./start.sh
+auto claim reward   ./auto_claim.sh

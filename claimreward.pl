@@ -2,8 +2,8 @@
 
 use strict;
 use warnings;
-my $wallet_pass="/root/pass";
-my $wallet_name = "test";
+my $wallet_pass="/root/pass";  # wallet password file
+my $wallet_name = "test";      # wallet name
 
 my $unlock_cmd="cat $wallet_pass |cleos wallet unlock -n $wallet_name";
 
